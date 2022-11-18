@@ -12,4 +12,5 @@ public interface LanguageService {
 	void delete(DeleteLanguageRequest deleteLanguageRequest) throws Exception;
 	void update(UpdateLanguageRequest updateLanguageRequest) throws Exception;
 	List<GetAllLanguagesResponse> getAll();
+	
 }
